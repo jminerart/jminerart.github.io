@@ -75,7 +75,8 @@ nav{
 }
 
 nav ul{
-    display: inline-flex;
+    display: flex;
+    justify-content:space-between;
 }
 
 nav li{
@@ -147,6 +148,31 @@ nav li a:hover{
   .dropdown:hover #dropdown-content {display: block;}
   
 /* --- END DROP DOWN --- */
+
+/* FOOTER CSS */
+footer{
+    grid-area:footer;
+    background-color:#ffc569;
+    height: 90px;
+} 
+
+footer a{
+    text-decoration: none;
+}
+.icons{
+    width: 50px;
+    display: inline-flex;
+    padding: 1em;
+}
+.icons:hover{
+    opacity: 50%;
+    transition: .3s;
+}
+.footer{
+    text-align: center;
+}
+
+
 
 /* --BEGIN ABOUT PAGE -- ABOUT PAGE -- ABOUT PAGE -- ABOUT PAGE -- */
 .about{
