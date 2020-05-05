@@ -4,12 +4,6 @@
     /* maybe add a background image?? that would be nice. */
 }
 
-.footer{
-    grid-area: footer;
-    /* background: */
-    /* add background? */
-}
-
 .container{
     /* font-size: */
     width: 100%;
@@ -59,6 +53,9 @@ p{
 header a{
     height: 150px;
     text-decoration: none;
+    color: white;
+    padding: 0;
+    margin: 0;
 }
 
 /* NAVBAR CSS */
